@@ -9,7 +9,7 @@ const APIMessage = require('./grpc/apimessage_pb');
 
 class Scratch3RocketScienceBlocks {
     constructor(runtime) {
-        this.client = new ScratchServiceClient('http://192.168.43.145:8100');
+        this.client = new ScratchServiceClient('http://scratchservice.kanxing.com:8100');
         this.runtime = runtime;
     }
 
