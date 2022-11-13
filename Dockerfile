@@ -1,6 +1,7 @@
-FROM node:10.19.0 as build-stage
+FROM node:lts as build-stage
 WORKDIR /app
 COPY package*.json ./
+ENV NODE_OPTIONS "--openssl-legacy-provider"
 RUN npm install --registry=https://registry.npm.taobao.org
 COPY ./ .
 RUN cp -r scratch-vm/* node_modules/scratch-vm/
