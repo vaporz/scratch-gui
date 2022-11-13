@@ -62,10 +62,11 @@ class Scratch3RocketScienceBlocks {
                 {
                     opcode: 'throttle',
                     blockType: BlockType.COMMAND,
-                    text: '动力输出设置为[THROTTLE]%',
+                    text: '动力输出设置为[THROTTLE]',
                     arguments: {
                         THROTTLE: {
-                            type: ArgumentType.NUMBER
+                            type: ArgumentType.NUMBER,
+                            menu: 'throttleMenu'
                         },
                     }
                 },
@@ -397,6 +398,19 @@ class Scratch3RocketScienceBlocks {
                     {text: '目标', value: 7},
                     {text: '目标反向', value: 8},
                     {text: '机动点', value: 9},
+                ],
+                throttleMenu: [
+                    {text: '0%', value: 0},
+                    {text: '10%', value: 10},
+                    {text: '20%', value: 20},
+                    {text: '30%', value: 30},
+                    {text: '40%', value: 40},
+                    {text: '50%', value: 50},
+                    {text: '60%', value: 60},
+                    {text: '70%', value: 70},
+                    {text: '80%', value: 80},
+                    {text: '90%', value: 90},
+                    {text: '100%', value: 100},
                 ],
                 actiongroupMenu: [
                     {text: '0', value: 0},
