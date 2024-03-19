@@ -103,7 +103,7 @@ class Scratch3RocketScienceBlocks {
                         },
                         TAG: {
                             type: ArgumentType.STRING,
-                            defaultValue: '[名称]'
+                            menu: 'engineNameMenu'
                         },
                     },
                 },
@@ -114,7 +114,7 @@ class Scratch3RocketScienceBlocks {
                     arguments: {
                         TAG: {
                             type: ArgumentType.STRING,
-                            defaultValue: '[名称]'
+                            menu: 'decouplerNameMenu'
                         },
                     },
                 },
@@ -191,7 +191,7 @@ class Scratch3RocketScienceBlocks {
                         },
                         TAG: {
                             type: ArgumentType.STRING,
-                            defaultValue: '[名称]'
+                            menu: 'rcsNameMenu'
                         },
                     },
                 },
@@ -202,7 +202,7 @@ class Scratch3RocketScienceBlocks {
                     arguments: {
                         TAG: {
                             type: ArgumentType.STRING,
-                            defaultValue: '[名称]'
+                            menu: 'fairingNameMenu'
                         },
                     },
                 },
@@ -213,7 +213,7 @@ class Scratch3RocketScienceBlocks {
                     arguments: {
                         TAG: {
                             type: ArgumentType.STRING,
-                            defaultValue: '[名称]'
+                            menu: 'parachuteNameMenu'
                         },
                     },
                 },
@@ -330,7 +330,7 @@ class Scratch3RocketScienceBlocks {
                     arguments: {
                         TAG: {
                             type: ArgumentType.STRING,
-                            defaultValue: '[名称]'
+                            menu: 'fuelRunOutEngineNameMenu'
                         },
                     },
                 },
@@ -421,6 +421,150 @@ class Scratch3RocketScienceBlocks {
                     {
                         text: '关机',
                         value: 'false'
+                    }
+                ],
+                engineNameMenu: [
+                    {
+                        text: '[名称]',
+                        value: '[名称]'
+                    },
+                    {
+                        text: '一级发动机',
+                        value: '一级发动机'
+                    },
+                    {
+                        text: '助推器',
+                        value: '助推器'
+                    },
+                    {
+                        text: '助推发动机',
+                        value: '助推发动机'
+                    },
+                    {
+                        text: '助推器分离火箭',
+                        value: '助推器分离火箭'
+                    },
+                    {
+                        text: '一二级分离火箭',
+                        value: '一二级分离火箭'
+                    },
+                    {
+                        text: '二级发动机',
+                        value: '二级发动机'
+                    },
+                    {
+                        text: '二级分离助推',
+                        value: '二级分离助推'
+                    },
+                    {
+                        text: '天问探测器发动机',
+                        value: '天问探测器发动机'
+                    },
+                    {
+                        text: '着陆器发动机',
+                        value: '着陆器发动机'
+                    },
+                    {
+                        text: '主发动机',
+                        value: '主发动机'
+                    },
+                ],
+                fuelRunOutEngineNameMenu: [
+                    {
+                        text: '[名称]',
+                        value: '[名称]'
+                    },
+                    {
+                        text: '一级发动机',
+                        value: '一级发动机'
+                    },
+                    {
+                        text: '助推发动机',
+                        value: '助推发动机'
+                    }
+                ],
+                decouplerNameMenu: [
+                    {
+                        text: '[名称]',
+                        value: '[名称]'
+                    },
+                    {
+                        text: '助推器分离器',
+                        value: '助推器分离器'
+                    },
+                    {
+                        text: '一二级分离器',
+                        value: '一二级分离器'
+                    },
+                    {
+                        text: '载荷支架',
+                        value: '载荷支架'
+                    },
+                    {
+                        text: '再入器分离器',
+                        value: '再入器分离器'
+                    },
+                    {
+                        text: '再入器隔热盾',
+                        value: '再入器隔热盾'
+                    },
+                    {
+                        text: '上升器分离器',
+                        value: '上升器分离器'
+                    },
+                    {
+                        text: '对接口分离器',
+                        value: '对接口分离器'
+                    },
+                    {
+                        text: '轨道器分离器',
+                        value: '轨道器分离器'
+                    },
+                ],
+                fairingNameMenu: [
+                    {
+                        text: '[名称]',
+                        value: '[名称]'
+                    },
+                    {
+                        text: '载荷整流罩',
+                        value: '载荷整流罩'
+                    },
+                    {
+                        text: '保护罩',
+                        value: '保护罩'
+                    },
+                    {
+                        text: '整流罩',
+                        value: '整流罩'
+                    }
+                ],
+                parachuteNameMenu: [
+                    {
+                        text: '[名称]',
+                        value: '[名称]'
+                    },
+                    {
+                        text: '主降落伞',
+                        value: '主降落伞'
+                    },
+                    {
+                        text: '降落伞',
+                        value: '降落伞'
+                    }
+                ],
+                rcsNameMenu: [
+                    {
+                        text: '[名称]',
+                        value: '[名称]'
+                    },
+                    {
+                        text: '着陆器RCS',
+                        value: '着陆器RCS'
+                    },
+                    {
+                        text: 'RCS喷口',
+                        value: 'RCS喷口'
                     }
                 ],
                 retractMenu: [
