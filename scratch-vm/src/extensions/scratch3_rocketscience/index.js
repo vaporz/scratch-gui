@@ -19,7 +19,7 @@ let connected = false;
 
 class Scratch3RocketScienceBlocks {
     constructor(runtime) {
-        this.client = new ScratchServiceClient('http://192.168.31.222:8100');
+        this.client = new ScratchServiceClient('http://127.0.0.1:8100');
         this.runtime = runtime;
     }
 
